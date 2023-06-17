@@ -1,0 +1,79 @@
+<div class="container-fluid g-0 p-2">
+    <div class="row g-0">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col ps-2">
+            <div class="row g-0">
+                <div class="col-md-10">
+                    <span class="name">{{employee.firstname | titlecase}} {{employee.lastname | titlecase}}</span>
+
+                </div>
+                <div class="col-md-2 d-flex justify-content-center align-items-center">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-success">Edit</button>
+                        <button type="button" class="btn btn-outline-danger"(click)="deleteEmployeeClicked()">Delete</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row g-0">
+
+            </div>
+            <div class="row g-0 mt-3">
+                <div class="col-md">
+                    <table class="table table-hover mx-auto">
+                        <tbody>
+                            <tr>
+                                <td>Age</td>
+                                <td>{{employee.age}}</td>
+                            </tr>
+                            <tr>
+                                <td>Department</td>
+                                <td>{{employee.department}}</td>
+                            </tr>
+                            <tr>
+                                <td>bloodGroup</td>
+                                <td>{{employee.bloodgroup}}</td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>{{employee.address}}</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>AlternateAddress</td>
+                                <td>{{employee.alternateaddress}}</td>
+                            </tr>
+                            <tr>
+                                <td>PhoneNo</td>
+                                <td>{{employee.phoneno}}</td>
+                            </tr>
+                            <tr>
+                                <td>AlternatePhoneNo</td>
+                                <td>{{employee.alternatephoneno}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="col"> 
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+</div>
